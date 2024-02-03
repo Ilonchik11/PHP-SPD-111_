@@ -1,5 +1,6 @@
 # CakePHP 3
 
+/server-logs/*
 /vendor/*
 /config/app.php
 
