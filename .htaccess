@@ -1,0 +1,5 @@
+# Включаємо модуль перетворення запиту 
+RewriteEngine on
+# Будь-які запити (.*) перетворюємо у access_manager.php
+RewriteRule .* access_manager.php [QSA]
+# QSA - query string append - збереження url-параметрів

@@ -1,0 +1,1 @@
+[Sat Feb 03 15:37:13.411990 2024] [php:error] [pid 7768:tid 1876] [client ::1:62593] PHP Parse error:  syntax error, unexpected token "endforeach" in C:\\Users\\ASUS\\source\\repos\\PHP-SPD-111\\basics.php on line 64, referer: http://spd-111.loc/
