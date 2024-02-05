@@ -18,7 +18,8 @@
       <ul id="nav-mobile" class="right hide-on-med-and-down">
       <?php foreach( [
             '/basics' => 'Основи',
-            '/layout' => 'Шаблонізація'
+            '/layout' => 'Шаблонізація',
+            '/regexp' => 'Регулярні вирази'
             ] as $href => $name ) : ?>
         <li <?= $uri==$href ? 'class="active"' : '' ?> ><a href="<?= $href ?>"><?= $name ?></a></li>
         <?php endforeach ?>

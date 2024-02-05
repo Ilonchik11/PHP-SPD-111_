@@ -12,6 +12,7 @@ $routes = [
     '/' => 'index.php',
     '/basics' => 'basics.php',
     '/layout' => 'layout.php',
+    '/regexp' => 'regexp.php',
 ];
 if( isset( $routes[ $uri ] ) ) { // у маршрутах є відповідний запис
     $page_body = $routes[ $uri ] ;
