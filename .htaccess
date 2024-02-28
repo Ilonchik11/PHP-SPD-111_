@@ -3,3 +3,4 @@ RewriteEngine on
 # Будь-які запити (.*) перетворюємо у access_manager.php
 RewriteRule .* access_manager.php [QSA]
 # QSA - query string append - збереження url-параметрів
+Header set Content-Security-Policy "img-src 'self' data: spd-111.loc"

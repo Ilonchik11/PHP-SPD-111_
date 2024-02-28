@@ -1,6 +1,12 @@
 body {
     background-color: #eee;
 }
-.brand-logo img {
+.brand-logo img, .avatar img {
     max-height: 50px;
+}
+.avatar {
+    border-radius: 50%;
+    height: 52px;
+    margin: 10px;
+    width: 52px;
 }
